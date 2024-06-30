@@ -1,0 +1,37 @@
+.article-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.article-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.article-card h2 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+.article-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.article-card a {
+  display: inline-block;
+  margin-top: 1em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

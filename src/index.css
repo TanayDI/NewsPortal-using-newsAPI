@@ -1,0 +1,129 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  width: auto;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 150px;
+  margin-left: 150px;
+  align-items: center;
+  display: block;
+
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #242424;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.category-filter{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.article-card{
+  margin-top: 30px;
+}
+
+/* styles.css */
+
+.article-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden; /* Ensure content does not overflow */
+  margin-bottom: 16px;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 200px; /* Fixed height for the image */
+  overflow: hidden; /* Ensure image does not overflow */
+}
+
+.image-wrapper img {
+  width: 100%; /* Ensures the image fills its container */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Ensures the image covers its entire area */
+}
+
+.content {
+  padding: 16px;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.content a {
+  display: block; /* Ensures "Read more" is on a new line */
+  margin-top: 12px; /* Adds spacing between description and button */
+  text-decoration: none;
+  color: #007bff; /* Blue color for links */
+}
+
+.content a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

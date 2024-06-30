@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #242424;
+    color: #fff;
+  }
+  
+  .categories {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .category-button {
+    background: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .category-button:hover {
+    background-color: #555;
+  }
+  

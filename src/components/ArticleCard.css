@@ -1,0 +1,30 @@
+.article-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 300px;
+    background-color: white;
+  }
+  
+  .article-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+  }
+  
+  .article-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .article-card p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .article-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  

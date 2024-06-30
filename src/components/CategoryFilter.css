@@ -1,0 +1,22 @@
+.category-filter {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .category-filter button {
+    background: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .category-filter button:hover {
+    background-color: #333;
+    color: #fff;
+    align-items: center;
+  }
+  
